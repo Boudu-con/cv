@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My contact information</title>
+</head>
+
+<body>
+    <h1>Contact Me</h1>
+    <p>Marion Ramirez</p>
+    <p>3533 rue Durocher<br>Montreal, QC<br>HJ8 6K8<br>(Canada)</p>
+    <p>(438)526-1749</p>
+    <p>ramirez.marion@hotmail.com</p>
+    <br>
+
+    <hr>
+    <br>
+    <!-- My personnal test form-->
+    <form action="mailto:ramirez.marion@hotmail.fr" method="post" enctype="text/plain">
+        <label for="fname">Your First Name:</label><br>
+        <input type="text" name="fname">
+        <br>
+        <label for="lname">Your Last Name:</label><br>
+        <input type="text" name="lname">
+        <br>
+        <label for="birth">Your Date of Birth:</label><br>
+        <input type="date" name="birth">
+        <br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email">
+        <br>
+        <label for="password">Password:</label><br>
+        <input type="password" name="password">
+        <br>
+        <label for="message">Your Message:</label><br>
+        <textarea name="message" rows="8" cols="60" placeholder="Type your message here.."></textarea>
+        <br>
+        <label for="languagechoice">Prefered language for correspondance:</label><br>
+        <input type="radio" name="languagechoice" value="English">
+        <label for="English">English</label><br>
+        <input type="radio" name="languagechoice" value="French">
+        <label for="English">French</label><br>
+        <input type="radio" name="languagechoice" value="Spanish">
+        <label for="English">Spanish</label><br>
+        <br>
+        <label for="file">If you want to send me a file:</label><br>
+        <input type="file" name="file">
+        <br><br>
+        <label for="satisfaction">Your level of satisfaction with this website:</label><br>
+        <input type="range" id="satisfaction" name="satisfaction" min="0" max="100"><br>
+        <input type="submit" value="Envoyer">
+
+    </form>
+
+
+
+</body>
+
+</html>
